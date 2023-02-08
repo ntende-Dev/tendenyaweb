@@ -1,0 +1,69 @@
+@import "config";
+
+.homeContainer {
+  width: 100vw;
+  background-color: $greyLight;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .homeWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    margin: auto;
+    padding: 0 4em;
+    width: 90%;
+
+    .lefty {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 2em;
+
+      .title {
+        font-size: 69px;
+        font-weight: 700;
+
+        span {
+          color: $secondary-color;
+        }
+      }
+      .para {
+        font-size: 1.5em;
+      }
+
+      @media (max-width: 768px) {
+        align-items: center;
+        justify-items: center;
+
+        .title {
+          font-size: 48px;
+          text-align: center;
+        }
+        .para {
+          text-align: center;
+          font-size: 30px;
+        }
+      }
+    }
+    .righty {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        align-self: center;
+      }
+    }
+
+    @media (max-width: 768px) {
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 4em;
+    }
+  }
+}
