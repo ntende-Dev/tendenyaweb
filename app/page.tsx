@@ -1,8 +1,6 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
-import Hero from "../public/heroImage.png";
+import Hero from "../app/HeroImage.png";
 import h from "../app/Home.module.scss";
 
 export default function Home() {
