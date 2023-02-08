@@ -1,3 +1,5 @@
+@import "../../config";
+
 .navContainer {
   height: 80px;
   display: flex;
@@ -60,8 +62,7 @@
     }
     .navBtn {
       padding: 0.3em 1.8em;
-      border: 2px solid orange;
-      background-color: rgb(209, 253, 250);
+      border: 1.5px solid $secondary-color;
       font-size: 18px;
       display: flex;
       flex-direction: column;
@@ -72,8 +73,10 @@
       .btnText {
         text-align: center;
         display: flex;
+        font-weight: 500;
         align-items: center;
         gap: 5px;
+        color: $primary-color;
       }
       .callUs {
         text-align: center;
@@ -81,6 +84,15 @@
         align-items: center;
         justify-content: center;
         font-size: 14px;
+        color: $secondary-color;
+      }
+
+      &:hover {
+        background-color: $secondary-color;
+        .btnText,
+        .callUs {
+          color: $white;
+        }
       }
 
       @media (max-width: 768px) {

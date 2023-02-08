@@ -31,7 +31,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className={n.navBtn}>
-          <p className={n.callUs}>Call us now</p>
+          <p className={n.callUs}>Call us now @</p>
           <p className={n.btnText}>
             <TbPhoneCall /> +27 73 793 7267
           </p>
