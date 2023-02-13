@@ -1,5 +1,5 @@
 "use client";
-import a from "../About/About.module.scss";
+import a from "../about/About.module.scss";
 import Image from "next/image";
 import HeroImage from "../HeroImage.png";
 import { GiReceiveMoney } from "react-icons/gi";

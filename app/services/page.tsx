@@ -1,7 +1,7 @@
 "use client";
 
 import Head from "next/head";
-import a from "../Services/Services.module.scss";
+import a from "../services/Services.module.scss";
 import Image from "next/image";
 import HeroImage from "../HeroImage.png";
 
