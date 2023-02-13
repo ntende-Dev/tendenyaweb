@@ -16,7 +16,7 @@ const Services = () => {
               <p className="breadCrumb">OUR SERVICES</p>
               <h1 className="titleBg">
                 What we do &
-                <br /> How we do it.
+                <br /> How we do it?
               </h1>
               <p className={a.paraLine}>
                 At Tendenya, we are dedicated to delivering innovative and
