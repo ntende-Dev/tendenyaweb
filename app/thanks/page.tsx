@@ -6,7 +6,7 @@ const Thanks = () => {
       <div className={t.thanksWrapper}>
         <h1>Thank you!</h1>
         <p>
-          Your form has been submited succesfully, and we'll touch base soonest!
+          Your form has been submited succesfully, and we'll get in touch soon!
         </p>
         <button className={t.contactBtn}>Our work</button>
       </div>
