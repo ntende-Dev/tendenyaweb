@@ -14,20 +14,22 @@ const Navbar = () => {
     <div className={n.navContainer}>
       <div className={n.navWrapper}>
         <div className={n.logo}>
-          <Image src={Logo} alt="logo" width={200} />
+          <Link href={"/"}>
+            <Image src={Logo} alt="logo" width={200} />
+          </Link>
         </div>{" "}
         <ul>
           <li>
-            <Link href={"/"}>Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href={"/"}>About</Link>
+            <Link href="/about">About</Link>
           </li>
           <li>
-            <Link href={"/"}>Services</Link>
+            <Link href="/services">Services </Link>
           </li>
           <li>
-            <Link href={"/"}>Contact</Link>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
         <div className={n.navBtn}>

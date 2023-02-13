@@ -1,0 +1,43 @@
+@import "../config";
+
+.thanksWrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 30px;
+  border: 1px solid $primary-color;
+  border-radius: 25px;
+  margin: 58px auto;
+
+  p {
+    color: $teal;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    color: $secondary-color;
+  }
+
+  .contactBtn {
+    padding: 0.6em 2em;
+    font-size: 1.2em;
+    background-color: $secondary-color;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+      background-color: $teal;
+    }
+  }
+}

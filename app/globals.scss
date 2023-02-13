@@ -10,57 +10,61 @@ html,
 body {
   overflow-x: hidden;
   font-family: "Montserrat", "Helvetica", sans-serif;
+  background-color: $white;
 }
 
-a {
-  text-decoration: none;
-}
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 140px auto;
 
-p,
-h1,
-a {
-  color: $black;
-}
+  .breadCrumb {
+    font-weight: 500;
+    font-size: 20px;
+    color: $grey;
 
-.contactBtn {
-  padding: 0.8em 2em;
-  font-size: 1.2em;
-  background-color: $secondary-color;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  border-radius: 25px;
-  transition: all 0.5s ease-in-out;
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
+  .titleBg {
+    font-size: 66px;
+    line-height: 1;
+    font-weight: 600;
+    color: $teal;
+  }
 
-  &:hover {
-    background-color: $darkOrange;
+  .title {
+    font-size: 28px;
+    font-weight: 600;
+    color: $black;
+  }
+
+  .title2 {
+    font-size: 22px;
+    color: $black;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  p {
+    color: $black;
+  }
+
+  .errors {
+    color: red;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:visited {
+      color: $teal;
+    }
   }
 }
-/* Mobile Devices */
-@media (max-width: 320px) {
-  // background-color: rgb(207, 197, 56);
-}
 
-/* Mobile Devices */
-@media (min-width: 321px) and (max-width: 480px) {
-  // background-color: rgb(8, 108, 133);
-}
-
-/* Low resolution Tablets and iPads */
-@media (min-width: 481px) and (max-width: 767px) {
-  // background-color: bisque;
-}
-
-/* Tablets iPads (Portrait) */
-@media (min-width: 768px) and (max-width: 1024px) {
-  // background-color: blueviolet;
-}
-
-/* Laptops and Desktops */
-@media (min-width: 1025px) and (max-width: 1280px) {
-  //background-color: greenyellow;
-}
-
-/* Big boi Monitors */
-@media (min-width: 1281px) {
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

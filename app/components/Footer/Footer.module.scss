@@ -1,3 +1,5 @@
+@import "../../config";
+
 .footerContainer {
   display: flex;
   align-items: center;
@@ -9,15 +11,38 @@
   padding: 0.38em 2em;
   font-size: 14px;
   color: #fff;
+  position: sticky;
+  bottom: 0px;
+  z-index: 99999999;
 
   .copyright {
     color: #fff;
   }
   .terms {
     color: #fff;
+
+    a {
+      color: #fff;
+    }
   }
   .disclaimer {
     color: #fff;
+  }
+
+  .socialLinks {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+    .icon {
+      color: $white;
+      font-size: 2em;
+      transition: all 0.2s ease-in;
+
+      &:hover {
+        font-size: 2.2em;
+      }
+    }
   }
 
   @media (max-width: 780px) {
