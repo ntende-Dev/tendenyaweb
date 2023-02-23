@@ -65,7 +65,7 @@ const Contact = () => {
             <div className={c.wherearewe}>
               {" "}
               <p className="breadCrumb">CONTACT US</p>
-              <h1 className="titleBg">Where we are & how to get hold of us</h1>
+              <h1 className="titleBg">Where we are</h1>
               <p className={c.paraLine}>
                 If you have any questions or would like to discuss your project
                 with us, please don't hesitate to reach out.

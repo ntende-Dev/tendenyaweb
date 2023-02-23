@@ -14,7 +14,7 @@ const Home = () => {
               <span className={h.spani}> Masterfully </span>
               <br />
               crafted logos & <br />
-              <span className={h.spani}> responsive</span> websites!
+              <span className={h.spani}> responsive</span> webs apps!
             </h1>
             <p className={h.para}>
               Get a logo which is optimized for brand visibility AND a web

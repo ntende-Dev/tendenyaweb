@@ -71,21 +71,15 @@
 
     img {
       align-self: center;
-      width: 400px;
-      height: 500px;
+      width: 500px;
     }
 
     @media (max-width: 768px) {
-      img {
-        width: 400px;
-        height: 500px;
-      }
-    }
-    @media (max-width: 768px) {
+      display: flex;
       align-items: center;
       justify-content: center;
       flex-wrap: wrap;
-      margin-top: 4em;
+      margin: 4em auto;
     }
   }
 }
