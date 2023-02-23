@@ -44,7 +44,7 @@ const Navbar = () => {
       </div>
       {open && (
         <>
-          <div className={n.mobileMenu}>
+          <div className={n.mobileMenu} onClick={() => setOpen(!open)}>
             <ul>
               <li>
                 <Link href={"/"}>Home</Link>

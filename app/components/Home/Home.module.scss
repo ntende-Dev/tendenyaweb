@@ -4,9 +4,12 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: auto;
+  margin: 80px auto 0 auto;
+  padding: 100px 20px 85px 20px;
   gap: 40px;
   flex-wrap: wrap;
+  // height: calc(100vh - 80px);
+  //border: 1px solid crimson;
 
   .lefty {
     flex: 1;
@@ -41,13 +44,6 @@
       span {
         color: $secondary-color;
       }
-
-      @media (min-width: 481px) and (max-width: 767px) {
-        font-size: 38px;
-      }
-      @media (min-width: 768px) and (max-width: 1024px) {
-        font-size: 48px;
-      }
     }
     .para {
       font-size: 1.3em;
@@ -57,6 +53,7 @@
     @media (max-width: 768px) {
       align-items: center;
       justify-items: center;
+      flex-wrap: wrap;
 
       .title {
         font-size: 48px;
@@ -70,12 +67,12 @@
   }
   .righty {
     flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-width: 350px;
 
     img {
       align-self: center;
+      width: 400px;
+      height: 500px;
     }
 
     @media (max-width: 768px) {

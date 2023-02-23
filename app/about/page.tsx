@@ -2,9 +2,7 @@
 import a from "../about/About.module.scss";
 import Image from "next/image";
 import HeroImage from "../HeroImage.png";
-import { GiReceiveMoney } from "react-icons/gi";
-import { FaCogs, FaUserTie } from "react-icons/fa";
-import { MdDesignServices } from "react-icons/md";
+import { Data } from "./AboutData";
 
 const About = () => {
   return (
@@ -57,69 +55,20 @@ const About = () => {
                 Tendenya was registered in 2008 with the CIPC to help businesses
                 reach their target audience and achieve their marketing goals.
               </p>
-              <h3 className="title2">Why you should choose us</h3>
+              <h3 className="title">Why you should choose us</h3>
             </div>
 
-            <div className={a.leftCard}>
-              <div className={a.icon}>
-                {" "}
-                <FaUserTie className={a.ikon} />
+            {Data.map((about) => (
+              <div className={a.leftCard} key={about.id}>
+                <div className={a.icon}>
+                  <p className={a.ikon}>{about.icon}</p>
+                </div>
+                <div className={a.cardBody}>
+                  <h3 className={a.title}>{about.title}</h3>
+                  <p className={a.desc}>{about.desc}</p>
+                </div>
               </div>
-              <div>
-                <h3 className="title2">Expertise and Experience:</h3>
-                <p>
-                  Specializing in multiple areas of design for the past 15
-                  years, we have a wealth of expertise and experience in each
-                  field, resulting in high-quality work and innovative
-                  solutions.
-                </p>
-              </div>
-            </div>
-
-            <div className={a.leftCard}>
-              <div className={a.icon}>
-                {" "}
-                <MdDesignServices className={a.ikon} />
-              </div>
-              <div>
-                <h3 className="title2">Comprehensive services: </h3>
-                <p>
-                  We provide clients with a one-stop solution for all their
-                  design needs, ensuring a consistent brand image across
-                  different platforms and mediums.
-                </p>
-              </div>
-            </div>
-
-            <div className={a.leftCard}>
-              <div className={a.icon}>
-                {" "}
-                <FaCogs className={a.ikon} />
-              </div>
-              <div>
-                <h3 className="title2">Integration and consistency: </h3>
-                <p>
-                  With a range of services under one roof, we ensure that all
-                  the design elements are integrated and consistent, resulting
-                  in a cohesive and aesthetically pleasing end product.
-                </p>
-              </div>
-            </div>
-
-            <div className={a.leftCard}>
-              <div className={a.icon}>
-                <GiReceiveMoney className={a.ikon} />
-              </div>
-              <div>
-                <h3 className="title2">Cost-effectiveness:</h3>
-                <p>
-                  Hiring multiple agencies for each design aspect can be
-                  time-consuming and expensive. We help reduce the overall cost
-                  of your design projects while still receiving high-quality
-                  results.
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

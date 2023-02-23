@@ -16,9 +16,10 @@ body {
 .container {
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 140px auto;
+  margin: 0 auto;
 
   .breadCrumb {
     font-weight: 500;

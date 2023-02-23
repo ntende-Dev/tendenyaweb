@@ -4,9 +4,12 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: auto;
+  margin: 80px auto 0 auto;
+  padding: 100px 20px 85px 20px;
   gap: 40px;
   flex-wrap: wrap;
+  // height: calc(100vh - 80px);
+  // border: 1px solid crimson;
 
   .leftWrapper {
     display: flex;
@@ -16,37 +19,28 @@
     flex: 1;
     border: 2ps solid orange;
 
-    .whowhy {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      max-width: 700px;
-      justify-content: center;
-
-      .paraLine {
-        line-height: 1.4;
-      }
-    }
-
     .leftCard {
       display: flex;
       gap: 30px;
-      align-items: center;
       justify-content: space-between;
       padding: 25px;
       box-shadow: rgba(100, 95, 136, 0.15) 0px 2px 6px 0px;
       max-width: 600px;
-      border-top-right-radius: 50px;
 
-      .icon {
-        .title {
-          font-size: 60px;
-          color: $secondary-color;
-        }
+      .ikon {
+        font-size: 30px;
+        color: $black;
       }
-      .title2 {
-        color: $teal;
-        margin-bottom: 10px;
+      .cardBody {
+        .title {
+          font-size: 22px;
+          color: $black;
+          font-weight: 600;
+          margin-bottom: 12px;
+        }
+        .desc {
+          font-size: 18px;
+        }
       }
     }
   }
@@ -55,12 +49,20 @@
     flex-direction: column;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: $teal;
     color: $white;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 100px;
-    padding: 60px 40px;
+
+    .whowhy {
+      display: flex;
+      flex-direction: column;
+      max-width: 700px;
+      justify-content: center;
+
+      .paraLine {
+        line-height: 1.4;
+      }
+    }
 
     .right {
       img {
@@ -69,7 +71,7 @@
       }
     }
     .rightPara {
-      color: $white;
+      color: $black;
     }
     .mission {
       margin: 10px 0;
