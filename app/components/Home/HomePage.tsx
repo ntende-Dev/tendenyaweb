@@ -9,7 +9,7 @@ const Home = () => {
       <main className="container">
         <div className={h.homeWrapper}>
           <div className={h.lefty}>
-            <p className="breadCrumb">The home of</p>
+            <p className="breadCrumb"></p>
             <h1 className={h.title}>
               <span className={h.spani}> Masterfully </span>
               <br />
