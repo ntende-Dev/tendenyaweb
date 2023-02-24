@@ -6,7 +6,7 @@ export const Data = [
   {
     id: 1,
     title: "Expertise and Experience:",
-    desc: "Specializing in multiple areas of design for the past 15 years, we have a wealth of expertise and experience in each field, resulting in high-quality work and innovative solutions",
+    desc: "Specializing in multiple areas of design for the past 15 years, we have a wealth of expertise and experience in each field, resulting in high-quality work & innovative solutions",
     icon: <FaUserTie />,
   },
   {

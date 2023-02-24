@@ -68,7 +68,7 @@ const Contact = () => {
               <h1 className="titleBg">Where we are</h1>
               <p className={c.paraLine}>
                 If you have any questions or would like to discuss your project
-                with us, please don't hesitate to reach out.
+                with us, please don't hesitate to reach out!
               </p>
             </div>
 

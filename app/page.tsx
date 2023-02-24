@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Hero from "../app/HeroImage.png";
+import Hero from "../app/HeroImago.png";
 import h from "../app/components/Home/Home.module.scss";
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
               <span className={h.spani}> Masterfully </span>
               <br />
               crafted logos & <br />
-              <span className={h.spani}> responsive</span> websites!
+              <span className={h.spani}> responsive</span> web apps!
             </h1>
             <p className={h.para}>
               Get a logo which is optimized for brand visibility <br />

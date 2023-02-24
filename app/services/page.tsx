@@ -3,7 +3,7 @@
 import Head from "next/head";
 import a from "../services/Services.module.scss";
 import Image from "next/image";
-import HeroImage from "../HeroImage.png";
+import HeroImage from "../HeroImago.png";
 import { Data } from "./ServicesData";
 
 const Services = () => {

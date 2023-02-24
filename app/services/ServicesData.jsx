@@ -17,7 +17,7 @@ export const Data = [
     id: 2,
     service: "Web & Mobile App Development",
     description:
-      "We offer full-service solution for creating and maintaining custom websites that are attractive, functional, and user-friendly.",
+      "We offer full-service solution for creating and maintaining custom web applications that are attractive, functional, and user-friendly.",
     icon: <MdOutlineDeveloperMode className="ikon" />,
   },
 

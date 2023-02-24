@@ -1,7 +1,7 @@
 "use client";
 import a from "../about/About.module.scss";
 import Image from "next/image";
-import HeroImage from "../HeroImage.png";
+import HeroImage from "../HeroImago.png";
 import { Data } from "./AboutData";
 
 const About = () => {
@@ -14,7 +14,7 @@ const About = () => {
               <Image src={HeroImage} alt="picy" />
             </div>
             <div className={a.mission}>
-              <h3 className="title2"> Vision: </h3>
+              <h3 className="title"> Vision: </h3>
               <p className={a.rightPara}>
                 To become the leading creative agency delivering innovative and
                 user-centered digital solutions that transform businesses and
@@ -22,7 +22,7 @@ const About = () => {
               </p>
             </div>
             <div className={a.mission}>
-              <h3 className="title2">Mission:</h3>
+              <h3 className="title">Mission:</h3>
               <p className={a.rightPara}>
                 To provide unparalleled web design, development, SEO, UI/UX
                 design, graphic design, and digital filmmaking services that
@@ -31,7 +31,7 @@ const About = () => {
             </div>
 
             <div className={a.mission}>
-              <h3 className="title2">Values:</h3>
+              <h3 className="title">Values:</h3>
               <ul>
                 <li>Customer Focus</li>
                 <li>Innovation</li>
