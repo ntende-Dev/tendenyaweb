@@ -30,6 +30,8 @@ const Home = () => {
 
           <div className={h.righty}>
             <Image src={Hero} alt="heroImage" />
+            <div className={h.cirleTeal}></div>
+            <div className={h.circleOrange}></div>
           </div>
         </div>
       </main>

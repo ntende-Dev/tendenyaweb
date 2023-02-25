@@ -10,40 +10,46 @@ const About = () => {
       <div className="container">
         <div className={a.aboutWrapper}>
           <div className={a.rightWrapper}>
-            <div className={a.right}>
-              <Image src={HeroImage} alt="picy" />
+            <div className={a.rightTop}>
+              <div className={a.circleTeal}></div>
+              <div className={a.circleOrange}></div>
+              <div className={a.imageWrapper}>
+                <Image src={HeroImage} alt="picy" />
+              </div>
             </div>
-            <div className={a.mission}>
-              <h3 className="title"> Vision: </h3>
-              <p className={a.rightPara}>
-                To become the leading creative agency delivering innovative and
-                user-centered digital solutions that transform businesses and
-                brands.
-              </p>
-            </div>
-            <div className={a.mission}>
-              <h3 className="title">Mission:</h3>
-              <p className={a.rightPara}>
-                To provide unparalleled web design, development, SEO, UI/UX
-                design, graphic design, and digital filmmaking services that
-                meet the needs and exceed the expectations of our clients.
-              </p>
-            </div>
+            <div className={a.rightBottom}>
+              <div className={a.mission}>
+                <h3 className="title"> Vision: </h3>
+                <p className={a.rightPara}>
+                  To become the leading creative agency delivering innovative
+                  and user-centered digital solutions that transform businesses
+                  and brands.
+                </p>
+              </div>
+              <div className={a.mission}>
+                <h3 className="title">Mission:</h3>
+                <p className={a.rightPara}>
+                  To provide unparalleled web design, development, SEO, UI/UX
+                  design, graphic design, and digital filmmaking services that
+                  meet the needs and exceed the expectations of our clients.
+                </p>
+              </div>
 
-            <div className={a.mission}>
-              <h3 className="title">Values:</h3>
-              <ul>
-                <li>Customer Focus</li>
-                <li>Innovation</li>
-                <li>Quality</li>
-                <li>Collaboration</li>
-                <li>Integrity</li>
-              </ul>
-              <p className={a.rightPara}>
-                By adhering to these values, we will deliver exceptional digital
-                experiences that make a lasting impact on our clients'
-                businesses and their customers.
-              </p>
+              <div className={a.mission}>
+                <h3 className="title">Values:</h3>
+                <ul>
+                  <li>Customer Focus</li>
+                  <li>Innovation</li>
+                  <li>Quality</li>
+                  <li>Collaboration</li>
+                  <li>Integrity</li>
+                </ul>
+                <p className={a.rightPara}>
+                  By adhering to these values, we will deliver exceptional
+                  digital experiences that make a lasting impact on our clients'
+                  businesses and their customers.
+                </p>
+              </div>
             </div>
           </div>
           <div className={a.leftWrapper}>

@@ -29,7 +29,11 @@ const Home = () => {
           </div>
 
           <div className={h.righty}>
-            <Image src={Hero} alt="heroImage" />
+            <div className={h.imageWrapper}>
+              <Image src={Hero} alt="heroImage" />
+            </div>
+            <div className={h.circleTeal}></div>
+            <div className={h.circleOrange}></div>
           </div>
         </div>
       </main>

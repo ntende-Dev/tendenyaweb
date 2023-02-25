@@ -59,6 +59,8 @@ const Navbar = () => {
                 <Link href={"/contact"}>Contact</Link>
               </li>
             </ul>
+            <div className={n.circleTeal}></div>
+            <div className={n.circleOrange}></div>
           </div>
         </>
       )}
